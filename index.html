@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="./script_file.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>RPSGame</title>
 </head>
+
 <body>
-    
+    <!-- Header text -->
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <!-- results score board-->
+    <div class="scoreBoard">
+        <div id="userLabel" class="badge">YOU</div>
+        <div id="userBoard" class="boards"></div>
+        <div id="compLabel" class="badge">COMP</div>
+        <div id="compBoard" class="boards"></div>
+        <span id="userScore">0</span>:<span id="compScore">0</span>
+    </div>
+    <!-- result and announce winner-->
+    <div class="result">
+        <p>Are You Ready?</p>
+    </div>
+    <!-- choices buttons-->
+    <div class="choices">
+        <div class="choice" id="r">
+            <h3>ROCK</h3>
+        </div>
+        <div class="choice" id="p">
+            <h3>PAPER</h3>
+        </div>
+        <div class="choice" id="s">
+            <h3>SCISSORS</h3>
+        </div>
+    </div>
+    <p id="actionText">Make your choice</p>
+
+    <script type="text/javascript" src="./script_file.js"></script>
 </body>
+
 </html>
